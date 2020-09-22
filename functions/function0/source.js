@@ -1,6 +1,5 @@
 exports = function (arg) {
   /*
-    Accessing application's values:
     var x = context.values.get("value_name");
 
     Accessing a mongodb service:
