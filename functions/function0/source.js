@@ -1,5 +1,5 @@
 exports = function (arg) {
-  /* hel*/
+  /* he*/
   return { arg: arg };
 };
 
