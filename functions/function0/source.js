@@ -1,5 +1,5 @@
 exports = function (arg) {
-  /* hello */
+  /* hell */
   return { arg: arg };
 };
 
