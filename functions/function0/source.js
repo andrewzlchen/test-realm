@@ -1,5 +1,5 @@
 exports = function (arg) {
-  /* heasdfasd fa sdf asfdasd f asdfsdfasfasdf*/
+  /* heasdfasd fa sdf asfdasd f asdfsdfasfasd*/
   return { arg: arg };
 };
 
