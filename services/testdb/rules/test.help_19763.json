@@ -1,0 +1,96 @@
+{
+    "collection": "help_19763",
+    "database": "test",
+    "id": "5fa19b3979d6febedf6d23d6",
+    "roles": [
+        {
+            "name": "default",
+            "apply_when": {},
+            "fields": {
+                "_id": {},
+                "account_guid": {},
+                "address_1": {},
+                "address_2": {},
+                "city": {},
+                "company_name": {},
+                "country": {},
+                "created_at": {},
+                "display_name": {},
+                "id": {},
+                "modified_by": {},
+                "modules": {},
+                "phone": {},
+                "state": {},
+                "status": {},
+                "updated_at": {},
+                "website": {},
+                "zip": {}
+            },
+            "write": true,
+            "insert": true,
+            "delete": true,
+            "search": true,
+            "additional_fields": {}
+        }
+    ],
+    "schema": {
+        "properties": {
+            "_id": {
+                "bsonType": "objectId"
+            },
+            "account_guid": {
+                "bsonType": "string"
+            },
+            "address_1": {
+                "bsonType": "string"
+            },
+            "address_2": {
+                "bsonType": "string"
+            },
+            "city": {
+                "bsonType": "string"
+            },
+            "company_name": {
+                "bsonType": "string"
+            },
+            "country": {
+                "bsonType": "string"
+            },
+            "created_at": {
+                "bsonType": "string"
+            },
+            "display_name": {
+                "bsonType": "string"
+            },
+            "id": {
+                "bsonType": "int"
+            },
+            "modified_by": {
+                "bsonType": "string"
+            },
+            "modules": {
+                "bsonType": "string"
+            },
+            "phone": {
+                "bsonType": "string"
+            },
+            "state": {
+                "bsonType": "string"
+            },
+            "status": {
+                "bsonType": "int"
+            },
+            "updated_at": {
+                "bsonType": "string"
+            },
+            "website": {
+                "bsonType": "string"
+            },
+            "zip": {
+                "bsonType": "string"
+            }
+        },
+        "title": "account",
+        "type": "object"
+    }
+}

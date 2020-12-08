@@ -1,0 +1,10 @@
+{
+    "id": "5fa020e2bc3f516b1f20cd31",
+    "name": "testdb",
+    "type": "mongodb",
+    "config": {},
+    "secret_config": {
+        "uri": "__testdb_uri"
+    },
+    "version": 1
+}

@@ -1,0 +1,13 @@
+{
+    "id": "5fa1a11779d6febedf6d250c",
+    "name": "local-userpass",
+    "type": "local-userpass",
+    "config": {
+        "autoConfirm": true,
+        "resetPasswordSubject": "asdf",
+        "resetPasswordUrl": "http://asdf.com",
+        "runConfirmationFunction": false,
+        "runResetFunction": ""
+    },
+    "disabled": false
+}

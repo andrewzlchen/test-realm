@@ -1,0 +1,43 @@
+{
+    "collection": "lunch",
+    "database": "test",
+    "id": "5fa19063253f32e1e0b33bc0",
+    "roles": [
+        {
+            "name": "default",
+            "apply_when": {},
+            "insert": true,
+            "delete": true,
+            "search": true,
+            "additional_fields": {}
+        }
+    ],
+    "schema": {
+        "properties": {
+            "_id": {
+                "bsonType": "objectId"
+            },
+            "invoice": {
+                "items": {
+                    "properties": {
+                        "name": {
+                            "type": "string"
+                        },
+                        "quantity": {
+                            "bsonType": "long"
+                        },
+                        "unitPrice": {
+                            "bsonType": "decimal"
+                        }
+                    },
+                    "type": "object"
+                },
+                "type": "array"
+            },
+            "student": {
+                "bsonType": "objectId"
+            }
+        },
+        "title": "Lunch"
+    }
+}

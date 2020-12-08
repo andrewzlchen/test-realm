@@ -1,0 +1,29 @@
+{
+    "collection": "longs",
+    "database": "test",
+    "id": "5fa020edbc3f516b1f20cd5a",
+    "roles": [
+        {
+            "name": "default",
+            "apply_when": {
+                "something": "%%user.id"
+            },
+            "insert": true,
+            "delete": true,
+            "search": true,
+            "additional_fields": {}
+        }
+    ],
+    "schema": {
+        "properties": {
+            "dec": {
+                "bsonType": "decimal"
+            },
+            "number": {
+                "bsonType": "long"
+            }
+        },
+        "title": "longboi",
+        "type": "object"
+    }
+}

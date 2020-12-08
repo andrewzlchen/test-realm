@@ -1,0 +1,48 @@
+{
+    "collection": "test",
+    "database": "test",
+    "id": "5fa2be0437ae0de039d963b3",
+    "roles": [
+        {
+            "name": "test",
+            "apply_when": {},
+            "insert": false,
+            "delete": false,
+            "search": true,
+            "additional_fields": {}
+        }
+    ],
+    "schema": {
+        "properties": {
+            "_id": {
+                "bsonType": "objectId"
+            },
+            "invoice": {
+                "bsonType": "array",
+                "items": {
+                    "bsonType": "object",
+                    "properties": {
+                        "quantity": {
+                            "bsonType": "long"
+                        },
+                        "unitPrice": {
+                            "bsonType": "decimal"
+                        }
+                    }
+                }
+            },
+            "payments": {
+                "properties": {
+                    "numberOfItemsOrdered": {
+                        "bsonType": "long"
+                    },
+                    "totalPrice": {
+                        "bsonType": "decimal"
+                    }
+                },
+                "type": "object"
+            }
+        },
+        "title": "test"
+    }
+}
